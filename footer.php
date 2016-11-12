@@ -25,7 +25,7 @@
 			</div>
 		</center>
 		<ul>
-			<li><a style="color:#fff; text-decoration:none;" href="about.php">About Us</a></li>
+			<li><a style="color:#fff; text-decoration:none;" href="index.php">About Us</a></li>
 			<li><a style="color:#fff; text-decoration:none;" href="careers.php">Careers</a></li>
 			<li><a style="color:#fff; text-decoration:none;" href="https://www.facebook.com/entrepreneurshipatubc/photos/a.738535382830107.1073741831.703341116349534/1286095891407384/?type=3">Press</a></li>
 			<li><a style="color:#fff; text-decoration:none;" href="contact.php">Contact Us</a></li>
