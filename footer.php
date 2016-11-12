@@ -20,8 +20,8 @@
 	<center>
 		<center>
 			<div class="social">
-				<a style="color:#fff;" href="https://www.facebook.com/storally"><span class="fa fa-2x fa-facebook" style="margin:10px;"></span></a>
-				<a style="color:#fff;" href="https://www.instagram.com/storally.space/"><span class="fa fa-2x fa-instagram" style="margin:10px;"></span></a>
+				<a style="color:#fff;" href="https://www.facebook.com/storally" target = "_blank"><span class="fa fa-2x fa-facebook" style="margin:10px;"></span></a>
+				<a style="color:#fff;" href="https://www.instagram.com/storally.space/" target = "_blank"><span class="fa fa-2x fa-instagram" style="margin:10px;"></span></a>
 			</div>
 		</center>
 		<ul>
