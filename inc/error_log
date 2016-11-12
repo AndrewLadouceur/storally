@@ -1,0 +1,17 @@
+[15-May-2016 17:11:49 America/Chicago] PHP Warning:  require(inc/conf.php): failed to open stream: No such file or directory in /home2/storally/public_html/storally/inc/sendMail.php on line 9
+[15-May-2016 17:11:49 America/Chicago] PHP Warning:  require(inc/conf.php): failed to open stream: No such file or directory in /home2/storally/public_html/storally/inc/sendMail.php on line 9
+[15-May-2016 17:11:49 America/Chicago] PHP Fatal error:  require(): Failed opening required 'inc/conf.php' (include_path='.:/opt/php56/lib/php') in /home2/storally/public_html/storally/inc/sendMail.php on line 9
+[15-May-2016 17:14:08 America/Chicago] PHP Fatal error:  Call to a member function sendEmail() on null in /home2/storally/public_html/storally/inc/sendMail.php on line 13
+[15-May-2016 17:14:36 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/storally/public_html/storally/inc/functions.php on line 146
+[15-May-2016 17:15:28 America/Chicago] PHP Fatal error:  Call to a member function sendEmail() on null in /home2/storally/public_html/storally/inc/sendMail.php on line 13
+[15-May-2016 17:21:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/storally/public_html/storally/inc/functions.php on line 146
+[15-May-2016 17:21:33 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:21:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/storally/public_html/storally/inc/functions.php on line 146
+[15-May-2016 17:21:57 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:23:52 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:27:05 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:27:08 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:27:53 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:27:57 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:27:59 America/Chicago] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in /home2/storally/public_html/storally/inc/SendGrid.php on line 85
+[15-May-2016 17:31:53 America/Chicago] PHP Warning:  Missing argument 2 for SendGrid::__construct(), called in /home2/storally/public_html/storally/inc/functions.php on line 289 and defined in /home2/storally/public_html/storally/inc/vendor/sendgrid/sendgrid/lib/SendGrid.php on line 16

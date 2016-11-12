@@ -1,0 +1,448 @@
+[12-May-2016 17:31:43 America/Chicago] PHP Warning:  Missing argument 2 for MysqliDb::update(), called in /home2/storally/public_html/storally/api/phone_number_update.php on line 30 and defined in /home2/storally/public_html/storally/inc/mysqli.php on line 667
+[12-May-2016 17:31:43 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE Array WHERE  id = ? ) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, NULL)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(30): MysqliDb->update(Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:31:58 America/Chicago] PHP Warning:  Missing argument 2 for MysqliDb::update(), called in /home2/storally/public_html/storally/api/phone_number_update.php on line 30 and defined in /home2/storally/public_html/storally/inc/mysqli.php on line 667
+[12-May-2016 17:31:58 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE Array WHERE  id = ? ) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, NULL)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(30): MysqliDb->update(Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:32:02 America/Chicago] PHP Warning:  Missing argument 2 for MysqliDb::update(), called in /home2/storally/public_html/storally/api/phone_number_update.php on line 30 and defined in /home2/storally/public_html/storally/inc/mysqli.php on line 667
+[12-May-2016 17:32:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE Array WHERE  id = ? ) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, NULL)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(30): MysqliDb->update(Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:32:10 America/Chicago] PHP Warning:  Missing argument 2 for MysqliDb::update(), called in /home2/storally/public_html/storally/api/phone_number_update.php on line 30 and defined in /home2/storally/public_html/storally/inc/mysqli.php on line 667
+[12-May-2016 17:32:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE Array WHERE  id = ? ) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, NULL)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(30): MysqliDb->update(Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:34:39 America/Chicago] PHP Warning:  Missing argument 2 for MysqliDb::update(), called in /home2/storally/public_html/storally/api/phone_number_update.php on line 31 and defined in /home2/storally/public_html/storally/inc/mysqli.php on line 667
+[12-May-2016 17:34:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE Array WHERE  id = ? ) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, NULL)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(31): MysqliDb->update(Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:36:07 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (UPDATE users SET `phone` = ?, `verified_phone` = ? WHERE  id = ? ) Unknown column 'verified_phone' in 'field list'' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(675): MysqliDb->_buildQuery(NULL, Array)
+#2 /home2/storally/public_html/storally/api/phone_number_update.php(31): MysqliDb->update('users', Array)
+#3 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:36:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (INSERT  INTO verification (`uid`, `type`, `code`)  VALUES (?, ?, ?)) Table 'storally_test.verification' doesn't exist' in /home2/storally/public_html/storally/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/storally/inc/mysqli.php(1037): MysqliDb->_buildQuery(NULL, Array)
+#2 /home2/storally/public_html/storally/inc/mysqli.php(628): MysqliDb->_buildInsert('verification', Array, 'INSERT')
+#3 /home2/storally/public_html/storally/api/phone_number_update.php(42): MysqliDb->insert('verification', Array)
+#4 {main}
+  thrown in /home2/storally/public_html/storally/inc/mysqli.php on line 1482
+[12-May-2016 17:37:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', NULL, 'Thank you for r...')
+#5 /home2/storally/public_html/storally/inc/functions.php(251): Functions->sendTextMessage(NULL, 'Thank you for r...')
+#6 /home2/storally/public_html/storally/api/phone_number_update.php(43 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[12-May-2016 17:37:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number  919560043231 is not a valid phone number.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', ' 919560043231', 'Thank you for r...')
+#5 /home2/storally/public_html/storally/inc/functions.php(251): Functions->sendTextMessage(' 919560043231', 'Thank you for r...')
+#6 /home2/storally/pub in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[12-May-2016 18:03:51 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The requested resource /2010-04-01/Accounts/AC22b47d7c54fb5a0e049012ba832a41e8/Messages/SM4020dd645b394fa4ac4b323018c6fa5d.json was not found' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(265): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(236): Base_Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/InstanceResource.php(79): Base_Services_Twilio->retrieveData('/2010-04-01/Acc...')
+#3 /home2/storally/public_html/storally/inc/functions.php(240): Services_Twilio_InstanceResource->__get('id')
+#4 /home2/storally/public_html/storally/inc/functions.php(251): Functions->sendTextMessage('+919560043231', 'Thank you for r...')
+#5 /home2/storally/public_html/storally/api/phone_number_update.php(48): Functions->sendRandomCod in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[12-May-2016 18:04:01 America/Chicago] PHP Fatal error:  Call to undefined method Functions::where() in /home2/storally/public_html/storally/api/phone_number_verify.php on line 26
+[12-May-2016 18:05:57 America/Chicago] PHP Fatal error:  Call to undefined method MysqliDb::generateRandomCode() in /home2/storally/public_html/storally/api/phone_number_update.php on line 33
+[12-May-2016 18:08:58 America/Chicago] PHP Fatal error:  Call to undefined method MysqliDb::generateRandomCode() in /home2/storally/public_html/storally/api/phone_number_update.php on line 33
+[12-May-2016 18:10:36 America/Chicago] PHP Fatal error:  Call to undefined method MysqliDb::generateRandomCode() in /home2/storally/public_html/storally/api/phone_number_update.php on line 33
+[12-May-2016 18:11:07 America/Chicago] PHP Fatal error:  Call to undefined method MysqliDb::generateRandomCode() in /home2/storally/public_html/storally/api/phone_number_update.php on line 33
+[12-May-2016 18:44:13 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-May-2016 00:23:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +918826516848 is unverified. Trial accounts cannot send messages to unverified numbers; verify +918826516848 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+918826516 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 00:24:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +918826516848 is unverified. Trial accounts cannot send messages to unverified numbers; verify +918826516848 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+918826516 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 01:33:28 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +918826516848 is unverified. Trial accounts cannot send messages to unverified numbers; verify +918826516848 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+918826516 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 01:34:44 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +917838415540 is unverified. Trial accounts cannot send messages to unverified numbers; verify +917838415540 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+917838415 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 02:12:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +918826516848 is unverified. Trial accounts cannot send messages to unverified numbers; verify +918826516848 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(239): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+918826516 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 15:40:16 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_picture.php on line 29
+[13-May-2016 23:43:41 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 31
+[13-May-2016 23:44:36 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[13-May-2016 23:46:05 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[13-May-2016 23:46:54 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:16:56 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:17:17 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:18:45 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:19:37 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:20:11 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[14-May-2016 00:22:14 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[15-May-2016 07:23:23 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally/api/update_ally_photo.php on line 27
+[15-May-2016 16:24:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(240): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/storally/inc/functions.php(252): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/ in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[15-May-2016 16:25:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/inc/functions.php(240): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/storally/inc/functions.php(252): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/ in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[19-May-2016 03:22:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(241): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(258): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('882 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[22-May-2016 12:38:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(241): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(258): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('882 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[22-May-2016 13:27:27 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[22-May-2016 16:16:46 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[22-May-2016 16:17:39 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[22-May-2016 16:29:02 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[25-May-2016 05:26:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 9910147188 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(241): Services_Twilio_Rest_Messages->sendMessage('5097036980', '9910147188', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(258): Functions->sendTextMessage('9910147188', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('991 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[31-May-2016 15:05:42 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:06:08 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:06:12 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:06:31 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:06:38 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:07:19 America/Chicago] PHP Fatal error:  Call to a member function where() on null in /home2/storally/public_html/inc/functions.php on line 305
+[31-May-2016 15:09:07 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (INSERT  INTO invites (`email`, `authorized`)  VALUES (?, ?)) Unknown column 'authorized' in 'field list'' in /home2/storally/public_html/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/inc/mysqli.php(1037): MysqliDb->_buildQuery(NULL, Array)
+#2 /home2/storally/public_html/inc/mysqli.php(628): MysqliDb->_buildInsert('invites', Array, 'INSERT')
+#3 /home2/storally/public_html/api/beta.php(25): MysqliDb->insert('invites', Array)
+#4 {main}
+  thrown in /home2/storally/public_html/inc/mysqli.php on line 1482
+[31-May-2016 15:09:33 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (INSERT  INTO invites (`email`, `authorized`)  VALUES (?, ?)) Unknown column 'authorized' in 'field list'' in /home2/storally/public_html/inc/mysqli.php:1482
+Stack trace:
+#0 /home2/storally/public_html/inc/mysqli.php(1095): MysqliDb->_prepareQuery()
+#1 /home2/storally/public_html/inc/mysqli.php(1037): MysqliDb->_buildQuery(NULL, Array)
+#2 /home2/storally/public_html/inc/mysqli.php(628): MysqliDb->_buildInsert('invites', Array, 'INSERT')
+#3 /home2/storally/public_html/api/beta.php(25): MysqliDb->insert('invites', Array)
+#4 {main}
+  thrown in /home2/storally/public_html/inc/mysqli.php on line 1482
+[02-Jun-2016 15:57:54 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[02-Jun-2016 15:59:32 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[02-Jun-2016 15:59:42 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Jun-2016 22:35:13 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[21-Jun-2016 16:31:46 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_dp.php on line 28
+[16-Jul-2016 12:29:28 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(246): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(263): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('882 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[18-Jul-2016 15:41:16 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +905378515239.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(246): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+905378515239', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(263): Functions->sendTextMessage('+905378515239', 'Thank you for r...')
+#6 /home2/storally/public_html/api/ph in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[18-Jul-2016 15:41:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +905378515239.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(246): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+905378515239', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(263): Functions->sendTextMessage('+905378515239', 'Thank you for r...')
+#6 /home2/storally/public_html/api/ph in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[18-Jul-2016 15:42:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +905378515239.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(246): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+905378515239', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(263): Functions->sendTextMessage('+905378515239', 'Thank you for r...')
+#6 /home2/storally/public_html/api/ph in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[26-Jul-2016 14:42:49 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[26-Jul-2016 14:42:58 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_dp.php on line 28
+[28-Jul-2016 06:02:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('882 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 06:04:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 8826516848 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '8826516848', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('8826516848', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandomCode('882 in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 15:00:26 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:01:51 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:02:27 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:02:41 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:06:01 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:06:11 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:06:38 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:06:41 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:06:58 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/storally/public_html/api/country_code.php on line 9
+[28-Jul-2016 15:33:15 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +41792870256.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+41792870256', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+41792870256', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 15:34:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +41792870256.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+41792870256', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+41792870256', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 15:35:16 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +41792870256.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+410792870256', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+410792870256', 'Thank you for r...')
+#6 /home2/storally/public_html/api/pho in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 15:35:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +41792870256.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+41792870256', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+41792870256', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[28-Jul-2016 15:39:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +41792870256.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+41792870256', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+41792870256', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[30-Jul-2016 15:24:33 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[30-Jul-2016 15:24:56 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[30-Jul-2016 15:29:01 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[31-Jul-2016 05:24:09 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +905386978681.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(273): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+905386978681', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(290): Functions->sendTextMessage('+905386978681', 'Thank you for r...')
+#6 /home2/storally/public_html/api/ph in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[02-Aug-2016 15:24:24 America/Chicago] PHP Fatal error:  Call to undefined method MysqliDb::getField() in /home2/storally/public_html/api/birthday.php on line 18
+[02-Aug-2016 15:26:03 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in /home2/storally/public_html/api/birthday.php on line 22
+[02-Aug-2016 15:27:05 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in /home2/storally/public_html/api/birthday.php on line 22
+[06-Aug-2016 17:34:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +160441178449 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(294): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+160441178449', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(311): Functions->sendTextMessage('+160441178449', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandom in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[06-Aug-2016 17:36:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +160441178449 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(294): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+160441178449', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(311): Functions->sendTextMessage('+160441178449', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->sendRandom in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[06-Aug-2016 17:37:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1+160441178449 is not a valid phone number.' in /home2/storally/public_html/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/inc/functions.php(294): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+1+160441178449', 'Thank you for r...')
+#5 /home2/storally/public_html/inc/functions.php(311): Functions->sendTextMessage('+1+160441178449', 'Thank you for r...')
+#6 /home2/storally/public_html/api/phone_number_update.php(48): Functions->send in /home2/storally/public_html/inc/Twilio/Twilio.php on line 297
+[07-Aug-2016 18:35:43 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[12-Aug-2016 06:23:52 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[12-Aug-2016 08:31:31 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[12-Aug-2016 08:31:38 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 11:24:42 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 11:25:23 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 11:49:27 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 11:49:35 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 11:54:41 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 15:40:12 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 15:40:34 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 15:42:39 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 15:42:54 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 15:43:08 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 16:03:03 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 16:03:09 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 16:05:09 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 16:11:05 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 16:11:22 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[14-Aug-2016 18:18:05 America/Chicago] PHP Fatal error:  Call to undefined method Functions::where() in /home2/storally/public_html/api/update_address.php on line 31
+[14-Aug-2016 18:18:09 America/Chicago] PHP Fatal error:  Call to undefined method Functions::where() in /home2/storally/public_html/api/update_address.php on line 31
+[14-Aug-2016 18:18:53 America/Chicago] PHP Fatal error:  Call to undefined method Functions::where() in /home2/storally/public_html/api/update_address.php on line 31
+[15-Aug-2016 05:54:41 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[15-Aug-2016 05:58:51 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[15-Aug-2016 07:51:30 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[18-Aug-2016 19:58:15 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[18-Aug-2016 19:58:18 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[18-Aug-2016 19:58:42 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_ally_photo.php on line 27
+[21-Aug-2016 10:19:35 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[22-Aug-2016 20:06:54 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[23-Aug-2016 13:12:35 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_dp.php on line 28
+[23-Aug-2016 22:38:33 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/api/update_picture.php on line 28
+[25-Aug-2016 21:00:16 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The requested resource /2010-04-01/Accounts/AC04c6d06348a76bb63d848e817c5b17fa/Messages/SM9c6ad2b09ca94b339ad38dac5459f9e0.json was not found' in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(265): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(236): Base_Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/InstanceResource.php(79): Base_Services_Twilio->retrieveData('/2010-04-01/Acc...')
+#3 /home2/storally/public_html/storally.com/inc/functions.php(308): Services_Twilio_InstanceResource->__get('id')
+#4 /home2/storally/public_html/storally.com/inc/functions.php(324): Functions->sendTextMessage('+16044178449', 'Thank you for r...')
+#5 /home2/storally/public_html/storally.com/api/phone_number_update.php(48 in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php on line 297
+[29-Aug-2016 22:46:08 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[29-Aug-2016 22:46:47 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[28-Sep-2016 17:01:09 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The requested resource /2010-04-01/Accounts/AC04c6d06348a76bb63d848e817c5b17fa/Messages/SM9eab980329ad4bde920ad14c77e1c48c.json was not found' in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(265): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(236): Base_Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/InstanceResource.php(79): Base_Services_Twilio->retrieveData('/2010-04-01/Acc...')
+#3 /home2/storally/public_html/storally.com/inc/functions.php(308): Services_Twilio_InstanceResource->__get('id')
+#4 /home2/storally/public_html/storally.com/inc/functions.php(324): Functions->sendTextMessage('+17786814913', 'Thank you for r...')
+#5 /home2/storally/public_html/storally.com/api/phone_number_update.php(48 in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php on line 297
+[28-Sep-2016 17:01:23 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The requested resource /2010-04-01/Accounts/AC04c6d06348a76bb63d848e817c5b17fa/Messages/SMa92580788c6244ddb80f5124d2c74c9f.json was not found' in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(265): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(236): Base_Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/InstanceResource.php(79): Base_Services_Twilio->retrieveData('/2010-04-01/Acc...')
+#3 /home2/storally/public_html/storally.com/inc/functions.php(308): Services_Twilio_InstanceResource->__get('id')
+#4 /home2/storally/public_html/storally.com/inc/functions.php(324): Functions->sendTextMessage('+17786814913', 'Thank you for r...')
+#5 /home2/storally/public_html/storally.com/api/phone_number_update.php(48 in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php on line 297
+[28-Sep-2016 17:13:28 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[17-Oct-2016 09:33:09 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_dp.php on line 28
+[17-Oct-2016 09:33:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally.com/inc/functions.php(307): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+', 'Thank you for r...')
+#5 /home2/storally/public_html/storally.com/inc/functions.php(324): Functions->sendTextMessage('+', 'Thank you for r...')
+#6 /home2/storally/public_html in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php on line 297
+[17-Oct-2016 09:33:13 America/Chicago] PHP Fatal error:  Call to undefined method Functions::verifyAddress() in /home2/storally/public_html/storally.com/api/update_address.php on line 24
+[17-Oct-2016 09:33:15 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[17-Oct-2016 09:34:39 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[17-Oct-2016 09:36:32 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_ally_photo.php on line 27
+[17-Oct-2016 10:12:47 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_dp.php on line 28
+[17-Oct-2016 10:12:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally.com/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally.com/inc/functions.php(307): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+', 'Thank you for r...')
+#5 /home2/storally/public_html/storally.com/inc/functions.php(324): Functions->sendTextMessage('+', 'Thank you for r...')
+#6 /home2/storally/public_html in /home2/storally/public_html/storally.com/inc/Twilio/Twilio.php on line 297
+[17-Oct-2016 10:12:50 America/Chicago] PHP Fatal error:  Call to undefined method Functions::verifyAddress() in /home2/storally/public_html/storally.com/api/update_address.php on line 24
+[17-Oct-2016 10:14:33 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_picture.php on line 28
+[17-Oct-2016 10:36:20 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home2/storally/public_html/storally.com/api/update_ally_photo.php on line 27

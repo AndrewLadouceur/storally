@@ -1,0 +1,278 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-04-25 14:21:03
+* @Last modified by:   ananayarora
+* @Last modified time: 2016-08-23T02:18:42+05:30
+*/
+/*@import url("https://fonts.googleapis.com/css?family=Varela+Round");*/
+* {
+  margin: 0;
+  padding: 0;
+  /*font-family: "Varela Round", "Segoe Ui", "Helvetica Neue" !important;*/
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.box {
+  padding: 30px;
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  width: 400px;
+}
+
+.intro {
+  padding: 40px;
+  background: #16a085;
+}
+
+.msg {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 20pt;
+  font-weight: 100;
+  line-height: 1.4em;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.msg2 {
+  letter-spacing: 0.8px;
+  width: 450px;
+  margin-top: 20px;
+  line-height: 1.6em;
+  text-align: justify;
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+/*.wrap {
+  text-align: left;
+  margin-left: 27.5%;
+  padding: 20px;
+  margin-top: 30px;
+}*/
+
+.wrap {
+  text-align: left;
+  margin-left: 0%;
+  padding: 20px;
+  margin-top: 50px;
+  /*background: #fff;*/
+  padding-left: 14%;
+  padding-top: 5%;
+  width: 54%;
+}
+
+.clear {
+  clear: both;
+}
+
+.pickup_type {
+  padding-left: 20px;
+}
+
+.pickup_type .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.pickup_type ul {
+  list-style: none;
+}
+
+.pickup_type ul li {
+  float: left;
+  padding: 20px;
+  background: #fff;
+  width: 100px;
+  text-align: center;
+  border: 1px solid rgba(100, 100, 100, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.pickup_type ul li:hover {
+  background: #16a085;
+  color: #fff;
+}
+
+.description {
+  padding-left: 20px;
+}
+
+.description .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.description
+textarea {
+  width: 570px;
+  height: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(100, 100, 100, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.04);
+  font-size: 13pt;
+  padding: 20px;
+}
+
+.price {
+  padding-left: 20px;
+}
+
+.price .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.price .text {
+  width: 100px;
+  margin-left: 10px;
+  padding: 0px;
+  font-size: 14pt;
+}
+
+.price select {
+  font-size: 20pt;
+}
+
+.photos {
+  padding-left: 20px;
+}
+
+.photos .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.submit_button {
+  margin-left: 25%;
+  padding: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background: #16a085;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+#select_pickup_type .selected {
+  background: #16a085;
+  color: #fff;
+}
+
+.name {
+  padding-left: 20px;
+}
+
+.name .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.name .text {
+  width: 300px;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+.theinfo {
+  padding-left: 20px;
+}
+
+.theinfo .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.theinfo .box {
+  background: #fff;
+  width: 510px;
+}
+
+.area {
+  padding-left: 20px;
+}
+
+.area .title {
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.area .box {
+  background: #fff;
+  width: 510px;
+}
+
+#ally-submit-button {
+  outline: none;
+  border: none;
+  font-size: inherit;
+  margin-top: 30px;
+}
+
+#common-fields {
+  line-height:2.5em;
+}
+
+#ally-submit input[type="text"] {
+  margin-top:10px;
+}
+
+input[type="checkbox"] {
+  line-height:2.3em;
+}
+
+a {
+  color:#39c;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+#control-links {
+  margin-top:40px;
+  position: fixed;
+  left: 100px;
+}
+
+#control-links ul {
+  list-style: none;
+}
+
+#control-information {
+  margin-left:100px;
+  line-height:1.5em;
+  clear:both !important;
+}
+button {
+  border:none;
+  outline:none;
+  font-size:inherit;
+  width:300px !important;
+}

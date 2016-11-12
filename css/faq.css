@@ -1,0 +1,43 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-05-30 03:28:08
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-05-30 04:41:05
+*/
+
+
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background:#eee;
+}
+.wrap
+{
+	margin-top:100px;
+}
+.faq
+{
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  background: #fff;
+  width: 50%;
+  border: 1px solid rgba(100, 100, 100, 0.1);
+  margin-top:50px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.faq .question
+{
+  text-align: left;
+  padding: 25px;
+  background: #16a085;
+  color: #fff;
+}
+.faq .answer 
+{
+  padding: 25px;
+  background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

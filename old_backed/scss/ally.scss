@@ -1,0 +1,226 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-04-25 14:21:03
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-05-08 02:57:38
+*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+$font: "Varela Round","Segoe Ui","Helvetica Neue";
+$green: #16a085;
+*
+{
+	margin:0;
+	padding:0;
+	font-family: $font !important;
+}
+
+body
+{
+	overflow-x:hidden;
+	background:#efefef;
+}
+.box
+{
+	padding:30px;
+}
+input[type="text"], textarea
+{
+	padding:10px;
+	width: 400px;
+}
+.intro
+{
+	padding:40px;
+	background:$green;
+}
+.msg
+{
+	font-family: $font; 
+	font-size:20pt;
+	font-weight: 100;
+	line-height: 1.4em;
+	color:#fff;
+	letter-spacing: 1px;
+}
+.msg2
+{
+	letter-spacing: 0.8px;
+	width: 450px;
+	margin-top:20px;
+	line-height: 1.6em;
+	text-align: justify;
+	font-family: $font;
+	font-weight: 300;
+	color:#fff;
+	text-align: center;
+}
+.wrap
+{
+	text-align: left;
+	margin-left:27.5%;
+	padding:20px;
+	margin-top:30px;
+}
+.clear
+{
+	clear: both;
+}
+.storage_type
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	& ul
+	{
+		list-style: none;
+	}
+	& ul li
+	{
+		float: left;
+		padding:20px;
+		background:#fff;
+		width:100px;
+		text-align: center;
+		border:1px solid rgba(100,100,100,0.1);
+		box-shadow: 0 1px 10px rgba(0,0,0,.04);
+		cursor: pointer;
+		-webkit-transition:all 0.5s;
+		-moz-transition:all 0.5s;
+		-o-transition:all 0.5s;
+		transition:all 0.5s;
+		&:hover
+		{
+			background:$green;
+			color:#fff;
+		}
+	}
+}
+.description
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	textarea
+	{
+		width: 570px;
+		height: 200px;
+		border:none;
+		outline:none;
+		border:1px solid rgba(100,100,100,0.1);
+		box-shadow: 0 1px 10px rgba(0,0,0,.04);
+		font-size:13pt;
+		padding:20px;
+	}
+}
+.price
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	& .text
+	{
+		width: 100px;
+		margin-left:10px;
+		padding:0px;
+		font-size:14pt;
+	}
+	& select
+	{
+		font-size:20pt;
+	}
+}
+.photos
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+}
+.submit_button
+{
+	margin-left:25%;
+	padding:20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background:$green;
+	width: 100px;	
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+}
+#select_space_type 
+{
+	& .selected
+	{
+		background:$green;
+		color:#fff;
+	}
+}
+.name
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	& .text
+	{
+		width: 300px;
+		padding:10px;
+		font-size:14pt;
+	}
+}
+.theinfo
+{
+	padding-left: 20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	& .box
+	{
+		background:#fff;
+		width:510px;
+	}
+}
+.area
+{
+	padding-left:20px;
+	& .title
+	{
+		font-family: $font;
+		font-size: 16pt;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	& .box
+	{
+		background:#fff;
+		width:510px;
+	}
+}

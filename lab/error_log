@@ -1,0 +1,14 @@
+[13-May-2016 02:20:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +917838415540 is unverified. Trial accounts cannot send messages to unverified numbers; verify +917838415540 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/lab/twilio_test.php(12): Services_Twilio_Rest_Messages->sendMessage('5403181350', '+91783841 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297
+[13-May-2016 02:53:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919560043231 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919560043231 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/storally/public_html/storally/inc/Twilio/Twilio.php:297
+Stack trace:
+#0 /home2/storally/public_html/storally/inc/Twilio/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home2/storally/public_html/storally/inc/Twilio/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home2/storally/public_html/storally/inc/Twilio/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home2/storally/public_html/storally/lab/twilio_test.php(12): Services_Twilio_Rest_Messages->sendMessage('5097036980', '+91956004 in /home2/storally/public_html/storally/inc/Twilio/Twilio.php on line 297

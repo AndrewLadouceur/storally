@@ -1,0 +1,275 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-04-15 01:30:02
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-04-16 02:27:11
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+@font-face
+{
+	src:url('Nexa Bold.otf');
+	font-family: 'nexa_bold';
+}
+@font-face
+{
+	src:url('Nexa Light.otf');
+	font-family: 'nexa_light';
+}
+$sea-green: #16a085;
+@mixin pos
+{
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+*
+{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans";
+	font-weight: 100;
+}
+body,html
+{
+	width: 100%;
+	height: 100%;
+}
+body
+{
+	overflow-x:hidden;
+}
+.menu
+{
+	position: absolute;
+	top:0%;
+	right: 0%;
+	opacity: 0;
+	color:#fff;
+	z-index: +3;
+	& ul
+	{
+		margin:30px;
+		text-transform: uppercase;
+		letter-spacing: 1.4px;
+		margin-right: 40px;
+		font-size: 11pt;
+		cursor: pointer;
+		list-style: none;
+		& li
+		{
+			margin-right: 30px;
+			display: inline-block;
+		}
+	}
+}
+.welcome
+{
+	opacity: 0;
+	background: url(../img/landing_bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 75%;
+	position: relative;
+	& .overlay
+	{
+		position: absolute;
+		top:0%;
+		left:0%;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.6);
+		z-index: +1;
+	}
+	& .logo
+	{
+		position: absolute;
+		top:50%;
+		left:50%;
+		z-index: +2;
+		@include pos;
+		width: 300px;
+		opacity: 0;
+	}
+	& .slogan
+	{
+		position: absolute;
+		top:90%;
+		font-size: 17pt;
+		left: 50%;
+		color:#fff;
+		@include pos;
+		z-index: +2;
+		opacity: 0;
+
+	}
+}
+.line
+{
+	height: 1px;
+	background: #ccc;
+}
+.works
+{
+	padding:40px;
+	& .title
+	{
+		font-family: "nexa_light";
+		font-size:30pt;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+
+		& span
+		{
+			font-family: "nexa_bold";
+			color:$sea-green;
+		}
+	}
+	& .works_list
+	{
+		margin-left:20%;
+		line-height: 2.4em;
+		font-size: 17pt;
+		width: 70%;
+	}
+}
+.about_page
+{
+	background: url(../img/about.jpg);
+	background-size: cover;
+	color:#fff;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	& .about
+	{
+		font-size: 16pt;
+		line-height: 1.5em;
+		text-align: justify;
+		width: 50%;
+		position: absolute;
+		z-index: +3;
+		top: 50%;
+		left:50%;
+		@include pos;
+	}
+	& .overlay
+	{
+		position: absolute;
+		top:0%;
+		left:0%;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+		z-index: +1;
+	}
+	& .about_title
+	{
+		font-family: "nexa_bold";
+		font-size: 40pt;
+		position: absolute;
+		top:100px;
+		left:50%;
+		@include pos;
+		z-index: +4;
+
+		& span
+		{
+			font-family: "nexa_light";
+		}
+	}
+}
+.block
+{
+	opacity: 0;
+	& .block_img
+	{
+		display: inline-block;
+		& img 
+		{
+			width: 500px;
+		}
+	}
+	& .block_text
+	{
+		display: inline-block;
+		width: 500px;
+		margin-left: 20px;
+		font-size:14pt;
+		vertical-align: top;
+		text-align: justify;
+		& .btn
+		{
+			padding:10px;
+			background: $sea-green;
+			color:#fff;
+			width: 200px;
+			opacity: 0.7;
+			cursor: pointer;
+			-webkit-transition:opacity 0.5s;
+			-moz-transition:opacity 0.5s;
+			-o-transition:opacity 0.5s;
+			transition:opacity 0.5s;
+
+			&:hover
+			{
+				opacity: 1;
+			}
+		}
+	}
+}
+.sign_up
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background:url(../img/sign_up.jpg);
+	background-size: cover;
+	& .title
+	{
+		font-family: "nexa_bold";
+		font-size: 40pt;
+		position: absolute;
+		top:100px;
+		left:50%;
+		@include pos;
+		z-index: +4;
+		color:#fff;
+	}
+	& .title1
+	{
+		position: absolute;
+		top:24.5%;
+		left: 65%;
+		font-family: "nexa_bold";
+		text-shadow: 1px 1px 1px #999;
+		font-size: 35pt;
+		color:#fff;
+	}
+	& .title2
+	{
+		position: absolute;
+		top:65.5%;
+		left: 67%;
+		font-family: "nexa_bold";
+		text-shadow: 1px 1px 1px #999;
+		font-size: 35pt;
+		color:#fff;
+	}
+	& .signup_form
+	{
+		width: 300px;
+		position: absolute;
+		top:42.5%;
+		background:transparent;
+		left: 65%;
+	}
+	& .signup_form2
+	{
+		width: 300px;
+		position: absolute;
+		top:81%;
+		background:transparent;
+		left: 65%;
+	}
+}

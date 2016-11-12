@@ -1,0 +1,85 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-03-31 00:00:05
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-05-07 18:34:59
+*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+$font: "Varela Round","Segoe Ui","Helvetica Neue";
+@mixin pos
+{
+	transform:translate(0%,-50%);
+	-webkit-transform:translate(0%,-50%);
+	-moz-transform:translate(0%,-50%);
+	-o-transform:translate(0%,-50%);
+}
+*
+{
+	margin:0;
+	padding:0;
+	font-family:$font;
+}
+.master_head
+{
+	background:#fff;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	font-family: $font;
+	font-weight: 100;
+	width: 100%;
+	position:fixed;
+	top:0;
+	z-index:+5;
+	box-shadow: 0 1px 4px rgba(0,0,0,.04);
+	a
+	{
+		text-decoration:none;
+		color:#000;
+	}
+	& .symbol
+	{
+		width: 50px;
+		padding:20px;
+		border-right: 1px solid rgba(0,0,0,0.1);
+		padding-right: 30px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	& .logged_in_user
+	{
+		display: inline-block;
+		position: absolute;
+		right:5%;
+		top:20%;
+		border-left: 1px solid rgba(0,0,0,0.1);
+		& .user_picture
+		{
+			border-radius: 100%;
+			width: 40px;
+			margin-left:15px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		& .user_name
+		{
+			padding-left:50px;
+		}
+	}
+
+	& .menu
+	{
+		display: inline-block;
+		margin-left:40px;
+
+		& ul
+		{
+			list-style: none;
+		}
+
+		& ul li 
+		{
+			display: inline-block;
+			margin-left: 40px;
+		}
+	}
+
+}

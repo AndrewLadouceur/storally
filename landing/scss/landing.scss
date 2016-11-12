@@ -1,0 +1,148 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-03-28 00:12:55
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-04-03 04:06:03
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300);
+
+@mixin center{
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+@mixin leftcenter{
+	-webkit-transform:translate(0%,-50%);
+	-moz-transform:translate(0%,-50%);
+	-o-transform:translate(0%,-50%);
+	transform:translate(0%,-50%);
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans";
+}
+body{
+	overflow-x:hidden;
+}
+.logo{
+	position: absolute;
+	top:45%;
+	left: 25%;
+	@include center;
+	opacity: 0;
+}
+.coming_soon{
+	position: absolute;
+	bottom:20%;
+	left:50%;
+	font-size: 30pt;
+	@include center;
+	opacity: 0;
+	font-family: "Open Sans";
+}
+.divider{
+	height: 50%;
+	width: 1px;
+	background: #333;
+	position: absolute;
+	top:50%;
+	left:50%;
+	@include center;
+}
+.signup_form{
+	width: 400px;
+	padding:5px;
+	background: #eee;
+	border-radius:5px;
+	position: absolute;
+	right: 10%;
+	top:45%;
+	opacity: 0;
+	font-family: "Open Sans";
+	@include leftcenter;
+}
+.link{
+	position: absolute;
+	top:30%;
+	right: 15%;
+	& a{
+		color:#39c;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+.header{
+	& ul{
+		list-style:none;
+		text-align:center;
+		margin-top:30px;
+	}
+	& ul li{
+		display: inline-block;
+		padding:10px;
+		margin:10px;
+		cursor:pointer;
+	}
+}
+.about_storally_title{
+	font-size:30pt;	
+}
+.details{
+	width:75%;
+	line-height:35px;
+	text-align:justify;
+	font-size:16pt;
+}
+.works_details{
+	text-align:justify;
+	line-height:30px;
+	width:50%;
+	& ol li{
+		margin-top:30px;
+	}
+}
+@media screen and (max-width: 640px){
+	.logo{
+		width:auto;
+	 	position: absolute;
+   	 	top: 25%;
+   	 	left: 50%;
+   		-webkit-transform: translate(-50%, -50%);
+   		-moz-transform: translate(-50%, -50%);
+   		-o-transform: translate(-50%, -50%);
+   		transform: translate(-50%, -50%);
+   		opacity: 0;
+		width: 200px;
+		& img{
+			width: 175px;
+		}
+
+		& h2{
+			font-size: 13pt;
+			font-weight: 100;
+		}
+
+	}
+	.signup_form{
+		width: 75%;
+    	padding: 10px;
+    	background: #eee;
+    	border-radius: 5px;
+    	position: absolute;
+    	top: 74%;
+    	left: 50%;
+    	font-family: "Open Sans";
+    	-webkit-transform: translate(0%, -50%);
+    	-moz-transform: translate(0%, -50%);
+    	-o-transform: translate(0%, -50%);
+    	transform: translate(-50%, -50%);
+	}
+	.link{
+		top:60%;
+	}
+	.divider{
+		display: none;
+	}
+}

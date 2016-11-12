@@ -1,0 +1,122 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-03-31 00:00:05
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-05-27 02:14:23
+*/
+/* @import url("https://fonts.googleapis.com/css?family=Varela+Round"); */
+@import url("https://fonts.googleapis.com/css?family=Product+Sans:300,400");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Product Sans", "Segoe Ui", "Helvetica Neue" !important;
+  font-weight: 400;
+}
+
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
+.master_head {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Varela Round", "Segoe Ui", "Helvetica Neue";
+  font-weight: 100;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: +9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.master_head a {
+  text-decoration: none;
+  color: #000;
+}
+
+.master_head .symbol {
+  width: 50px;
+  padding: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.master_head .logged_in_user {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.master_head .logged_in_user .user_picture {
+  border-radius: 100%;
+  width: 40px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.master_head .logged_in_user .user_name {
+  padding-left: 50px;
+}
+
+.master_head .menu {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.master_head .menu ul {
+  list-style: none;
+}
+
+.master_head .menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.master_head .menu ul li:nth-child(1)
+{
+  margin-left:0px;
+}
+.menu {
+  color: #fff;
+  z-index: +3;
+}
+
+.menu ul {
+  /*text-transform: uppercase;*/
+  letter-spacing: 1.4px;
+  font-size: 11pt;
+  cursor: pointer;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+select {
+   overflow: hidden;
+   background: transparent;
+   border: none;
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+input[type='text'], input[type='email'], input[type='password']
+{
+  padding: 10px !important;
+  border:none !important;
+  border-bottom: solid 2px #c9c9c9 !important;
+  border-radius:0px !important;
+  transition: border 0.3s !important;
+}
+input[type="text"]:focus, input[type='text']:focus, input[type='email']:focus, input[type='password']:focus
+{
+    border:none !important;
+    outline:none !important;
+    border-bottom: solid 2px #969696 !important;
+}

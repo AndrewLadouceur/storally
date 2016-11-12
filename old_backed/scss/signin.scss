@@ -1,0 +1,91 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-03-30 01:25:39
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-04-26 20:11:52
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300);
+$font: "Open Sans","Arial";
+$green: #16a085;
+*
+{
+	margin: 0;
+	padding:0;
+}
+body
+{
+	overflow-x:hidden;
+	background:url(../img/sign-in-bg.jpeg);
+	background-size: cover;
+
+}
+.header_
+{
+	opacity: 0;
+	font-family: $font;
+	font-weight: 100;
+	font-size: 24pt;
+	color: #fff; 
+	text-align: center;
+	margin-top:50px;
+}
+.overlay
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.4);
+	z-index: -1;
+}
+.login_form
+{
+	text-align: center;
+	margin-top:70px;
+}
+#the_login_form
+{
+	opacity: 0;
+	background: #f9f9f9;
+	width: 400px;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:35px;
+	border-radius: 5px;
+}
+.facebook-button
+{
+	opacity: 0;
+}
+.submit_button
+{
+	border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: $green;
+    color: #fff;
+    font-family: $font;
+    opacity: 0.8;
+    font-weight: 300;
+    /*border-radius: 7px;*/
+    /*box-shadow: 0 5px #4572CE;*/
+	&:hover 
+	{
+		background:$green;
+	}
+}

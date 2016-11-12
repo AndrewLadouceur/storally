@@ -1,0 +1,54 @@
+/**
+ * @Author: ananayarora
+ * @Date:   2016-05-07 18:31:47
+ * @Last Modified by:   ananayarora
+ * @Last Modified time: 2016-05-08 18:48:31
+ */
+$green: #16a085;
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	overflow-x:hidden;
+}
+.box
+{
+	margin-top:100px;
+}
+.ally_name
+{
+	font-size:30pt;
+}
+.ally_price
+{
+	display: inline-block;
+	margin:15px;
+}
+.ally_distance
+{
+	margin:15px;
+	display: inline-block;
+}
+.fa
+{
+	color:$green;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ask_for_details
+{
+	color:$green;
+	cursor:pointer;
+}
+.details_request_message
+{
+	resize:no;
+	padding:10px;
+	margin:10px;
+	width:300px;
+	height:300px;
+	font-size:14pt;
+}

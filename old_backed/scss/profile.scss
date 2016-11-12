@@ -1,0 +1,95 @@
+/*
+* @Author: ananayarora
+* @Date:   2016-04-16 16:03:49
+* @Last Modified by:   ananayarora
+* @Last Modified time: 2016-04-30 04:01:41
+*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+$font: "Varela Round","Segoe Ui","Helvetica Neue";
+body
+{
+	overflow-x:hidden;
+	background:#efefef;
+}
+.profile
+{
+	& .page_title
+	{
+		font-family: $font;
+		font-weight: 100;
+		font-size:20pt;
+		margin-top:30px;
+	}
+	
+	& .box
+	{
+		font-family: $font;
+		background:#fff;
+		width: 50%;	
+		border:1px solid rgba(100,100,100,0.1);
+		box-shadow: 0 1px 4px rgba(0,0,0,.04);
+
+		& .title
+		{
+			text-align: left;
+			padding:25px;
+			background:#16a085;
+			color:#fff;
+		}
+
+		& .fields
+		{
+			padding:25px;
+			background:#fff;
+			border-top:1px solid rgba(0,0,0,0.1);
+		}
+
+		& .label
+		{
+			font-size: 11pt;
+			width: 20%;
+			margin-left:-100px;
+			display: inline-block;
+			text-align: right;
+			vertical-align:middle;
+		}
+		& .field
+		{
+			margin-top:10px;
+			& .textbox
+			{
+				width: 50%;
+				display: inline-block;
+				text-align: left;
+				margin-left:15px;
+			}
+			& .text
+			{
+				padding:10px;
+				text-align: left;
+				margin:5px;
+				border-radius: 3px;
+				border:1px solid rgba(0,0,0,0.3);
+			}
+			&:nth-child(1)
+			{
+				margin-top:0px;
+			}
+			
+			textarea
+			{
+				width: 98%;
+				height: 100px;
+			}
+		}
+	}
+	.submit_button
+	{
+		width: 100px;
+		padding:10px;
+		background:#16a085;
+		color:#fff;
+		cursor:pointer;
+		font-family: $font;
+	}
+}
