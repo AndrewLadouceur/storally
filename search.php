@@ -25,11 +25,14 @@
 	<h3 class="title">Find Allies</h3>
 	<br />
 	<form id="search_form">
-	Address<br /><br />
-			<input value="<?php echo $_GET['address']; ?>"  class="search_bar_home" type="text" name="address" placeholder="Address" id="address"><br /><br />
-			Radius (in Kilometers)<br /><br />
-			<input type="text" name="rad" value="2" placeholder="Radius (in Kilometers)" id="rad"><br /><br />
-			<div class="submit_button">Search</div>
+	<div class = "subtitle">Address</div>
+	<br />
+		<input value="<?php echo $_GET['address']; ?>"  class="search_bar_home" type="text" name="address" placeholder="Address" id="address">
+		<br /><br />
+		<div class = "subtitle">Radius (in Kilometers)</div>
+		<br />
+		<input type="text" name="rad" value="2" placeholder="Radius (in Kilometers)" id="rad"><br /><br />
+		<div class="submit_button">Search</div>
 	</form>
 	<div class="results">
 
