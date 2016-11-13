@@ -26,7 +26,14 @@
 	</div>
 	<div class="faq">
 		<div class="question">Q. My photo ID isn’t verified. What should I do?</div>
-		<div class="answer">The verification process takes 24 hours. If you don’t receive a response within 24 hours, please contact us directly.</div>
+		<div class="answer">The verification process takes 24 hours. If you don’t receive a response within 24 hours, please 
+		<div class="email">
+			<a href="mailto:careers@storally.com" style="border-bottom: 1px dotted black;">
+				contact us
+			</a>
+		</div>
+			contact us directly.
+		</div>
 	</div>
 	<div class="faq">
 		<div class="question">Q. Is it safe to keep belongings in my home/office?</div>
