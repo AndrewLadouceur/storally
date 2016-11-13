@@ -67,6 +67,7 @@
 		}
 		input[type="text"],textarea
 		{
+			font-size: 11pt;
 			padding: 10px;
   			text-align: left;
   			margin: 5px;
