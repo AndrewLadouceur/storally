@@ -27,7 +27,7 @@
 	<form id="search_form">
 	<div class = "subtitle">Address</div>
 	<br />
-		<input value="<?php echo $_GET['address']; ?>"  class="search_bar_home" type="text" name="address" placeholder="Address" id="address">
+		<input value="<?php echo $_GET['address']; ?>" class="search_bar_home" type="text" name="address" placeholder="Address" id="address">
 		<br /><br />
 		<div class = "subtitle">Radius (in Kilometers)</div>
 		<br />
@@ -44,8 +44,8 @@
 </div>
 </center>
 
-<input type="text" value="<?php echo $_GET['lat']; ?>" style="display:none;" name="lat" placeholder="Latitude" id="lat">
-<input type="text" style="display:none;" value="<?php echo $_GET['lon']; ?>" name="lon" placeholder="Longitude" id="lon">
+<input type="text" value="<?php echo $_GET['lat']; ?>" <?php //style="display:none;" ?> name="lat" placeholder="Latitude" id="lat">
+<input type="text" value="<?php echo $_GET['lon']; ?>" <?php //style="display:none;" ?> name="lon" placeholder="Longitude" id="lon">
 
 <div id="us2" style="display:none;"></div>
 <div id="us2-lat" style="display:none;"></div>
