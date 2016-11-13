@@ -29,7 +29,9 @@
 			// {
 				// if ($f->getBetaAcceptance($_SESSION['email']))
 				// {
-					echo "<div class=\"searchbar\"><input type=\"text\" class=\"search_bar_home\" placeholder=\"Enter the location where you would like to store your items\"><div class=\"search_button submit_button\">SEARCH</div></div>";
+					echo "<div class=\"searchbar\"><input type=\"text\" class=\"search_bar_home\" placeholder=\"Enter the location where you would like to store your items\">
+					<div class=\"search_button submit_button\">SEARCH</div>
+					</div>";
 				// } else {
 					// echo "<div class=\"searchbar\">Your account is in review for our beta program. Please come back later.</div>";
 				// }
@@ -46,26 +48,53 @@
 			<div class="title">How it works</div>
 			<br />
 			<br />
+
+			<div class="tooltip">
 			<div class="search item">
 				<i class="fa fa-search"></i>
+				<span class="tooltiptext">
+					Start by searching for Allies in your area
+				</span>
 				<br />
 				<p>Search</p>
 			</div>
+			</div>
+
+
+			<div class="tooltip">
 			<div class="search item">
 				<i class="fa fa-globe"></i>
+				<span class="tooltiptext">
+					Select an Ally who matches your criteria
+				</span>
 				<br />
 				<p>Select</p>
 			</div>
+			</div>
+
+			<div class="tooltip">
 			<div class="search item">
 				<i class="fa fa-user"></i>
+				<span class="tooltiptext">
+					Request to store your belongings
+				</span>
 				<br />
 				<p>Request</p>
 			</div>
+			</div>
+
+			<div class="tooltip">
 			<div class="search item">
 				<i class="fa fa-connectdevelop"></i>
+				<span class="tooltiptext">
+					Connect with the Ally to discuss storage details
+				</span>
 				<br />
 				<p>Connect</p>
 			</div>
+			</div>
+
+
 		</div>
 		<br>
 		<br>
@@ -84,25 +113,7 @@
 			<br />
 			<p>You set the rules for who, what belongings and for how long. Storee preferences help hosting fit into your lifestyle.</p>
 		</div> -->
-		<div class="sec half" style="border-right:1px solid #333;">
-			<div class="title">Why become an Ally?</div>
-			<br />
-			<!-- <p>As an Ally, you can earn <b>upto $50/week</b> by hosting someone's belongings. You can accept/reject a Storee's request and decide who stores, what belongings and 
-for how long.You can monetize the extra space you have at home, garage or office by hosting just a few boxes/luggage.
-				<br />
-				<br />
-				<div class="signup_btn"><a href="https://storally.com/signup.php">Sign up now</a></div>
-			</p> -->
-			<p>
-				<ul class="bullet_points">
-					<li>Earn more than $15/week</li>
-					<li>Decide who stores, what belongings and for how long in your space by accepting/rejecting requests.</li>
-					<li>Utilize and monetize the space in your cupboard, dorm, house or apartment.</li>
-				</ul>
-				<br />
-				<div class="signup_btn"><a href="https://storally.com/signup.php">Sign up now</a></div>
-			</p>
-		</div>
+	
 		<div class="sec half">
 			<div class="title">What can I store?</div>
 			<br />
@@ -110,6 +121,25 @@ for how long.You can monetize the extra space you have at home, garage or office
 			<br />
 			<p class="desc">“From books and bikes to your favorite jacket, Storally allows you to store your belongings for as low as $5/month.<br /><div class="signup_btn"><a style="color:#fff; text-decoration:none; cursor:pointer;" href="img/catalog.pdf" target="_blank">Find more</a></div></p>
 		</div>
+		<div class="sec half" style="border-left:1px solid #333;">
+		<div class="title">Why become an Ally?</div>
+		<br />
+		<!-- <p>As an Ally, you can earn <b>upto $50/week</b> by hosting someone's belongings. You can accept/reject a Storee's request and decide who stores, what belongings and 
+for how long.You can monetize the extra space you have at home, garage or office by hosting just a few boxes/luggage.
+			<br />
+			<br />
+			<div class="signup_btn"><a href="https://storally.com/signup.php">Sign up now</a></div>
+		</p> -->
+		<p>
+			<ul class="bullet_points">
+				<li>Earn more than $15/week</li>
+				<li>Decide who stores, what belongings and for how long in your space by accepting/rejecting requests.</li>
+				<li>Utilize and monetize the space in your cupboard, dorm, house or apartment.</li>
+			</ul>
+			<br />
+			<div class="signup_btn"><a href="https://storally.com/signup.php">Sign up now</a></div>
+		</p>
+	</div>
 		<div class="clear"></div>
 		<div class="testimonials">
 			<h1>Testimonials</h1>
