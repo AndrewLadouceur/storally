@@ -44,3 +44,4 @@
 	<br />
 	Drop us an email at careers@storally.com
 </div>
+<?php require("footer.php"); ?>
