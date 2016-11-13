@@ -36,12 +36,24 @@
 		z-index:+9;
 		color:#fff;
 	}
+	.careers .email
+	{
+		display: inline;
+	}
+
+a:link { color: #fff; text-decoration: none;}
+a:hover { color: #16a085; text-decoration: underline;}
+
 </style>
 <div class="overlay"></div>
 <div class="careers">
 	Want to join us in the storage revolution? We'll be happy to talk!
 	<br />
 	<br />
-	Drop us an email at careers@storally.com
+	Drop us an email at 
+	<div class="email">
+		<a href="mailto:careers@storally.com">careers@storally.com
+		</a>	
+	</div>
 </div>
 <?php require("footer.php"); ?>
