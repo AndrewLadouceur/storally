@@ -27,7 +27,7 @@
 		<ul>
 			<li><a style="color:#fff; text-decoration:none;" href="about_us.php">About Us</a></li>
 			<li><a style="color:#fff; text-decoration:none;" href="careers.php">Careers</a></li>
-			<li><a style="color:#fff; text-decoration:none;" href="https://www.facebook.com/entrepreneurshipatubc/photos/a.738535382830107.1073741831.703341116349534/1286095891407384/?type=3">Press</a></li>
+			<li><a style="color:#fff; text-decoration:none;" href="https://www.facebook.com/entrepreneurshipatubc/photos/a.738535382830107.1073741831.703341116349534/1286095891407384/?type=3" target = "_blank">Press</a></li>
 			<li><a style="color:#fff; text-decoration:none;" href="contact.php">Contact Us</a></li>
 		</ul>
 		<p class="footer_text">Copyright &copy; 2016 &nbsp;Storally™ Inc. &nbsp; All Rights Reserved.</p>

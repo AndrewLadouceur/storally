@@ -56,7 +56,10 @@
 		text-transform: none;
 
 	}
-
+.email
+	{
+		display: inline;
+	}
 </style>
 <center>
 <div class="overlay"></div>
@@ -66,6 +69,12 @@
 	<br>
 	<div class="body">
 Founded in 2016 on the beautiful Vancouver campus of UBC, Storally is an online platform that connects space owners with people in need of space to store their belongings temporarily. We accomplish this by utilizing the extra space in people’s homes and offices. Storally has organically grown to help find people a place to store their belongings. Trust and human connection are the two values that we focus on. We believe that the world is more interconnected than ever before and we want to be facilitators in this sharing economy.
+
+Got questions? 
+<div class="email">
+		<a href="mailto:careers@storally.com">Send us a message!
+		</a>	
+	</div>
 </div>
 </div>
 </center>

@@ -1,4 +1,5 @@
 <?php 
+
 /**
  * @Author: ananayarora
  * @Date:   2016-04-20 17:20:56
@@ -70,13 +71,6 @@
 			<br />
 			<br />
 			<br />
-			<?php 
-			if($_SESSION['user_email']){
-  					echo 'Your Email Is Here!  :) ';
- 				 } else {
- 				 	echo 'no email :( ';
- 				 }
- 				?>
 			<form id="signup_form">
 				<div class="field">
 					<span class="label">Full Name</span>

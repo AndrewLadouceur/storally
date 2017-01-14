@@ -7,7 +7,6 @@
 
 $(document).ready(function(){
 	$(".submit_button").click(function(){
-		console.log("submit called");
 				var error = 0;
 				$(".text").each(function(){
 					if ($(this).val() == "")
@@ -42,14 +41,6 @@ $(document).ready(function(){
 					swal("Error","Passwords don't match","error");
 				}
 		});
-
-var btn = document.getElementById('email_continue');
-btn.addEventListener('click', function() {
-console.log("email continue");
- <?php $_SESSION['user_email'] = $_POST; ?>
-  document.location.href = 'signup.php';
-});
-
 	$("input").keydown(function(e){
 		if (e.keyCode == 13)
 		{

@@ -4,20 +4,17 @@
 * @Last Modified by:   ananayarora
 * @Last Modified time: 2016-05-30 04:41:05
 */
-
-
-*
 {
-	margin:0;
-	padding:0;
+  margin:0;
+  padding:0;
 }
 body
 {
-	background:#eee;
+  background:#eee;
 }
 .wrap
 {
-	margin-top:100px;
+  margin-top:100px;
 }
 .faq
 {
@@ -44,10 +41,21 @@ body
 
 .faq .answer .email
   {
-    text-decoration: none;
-    display: inline;
     padding: 0;
+    display: inline;
   }
-
-a:link { color: black; text-decoration: none;}
-a:hover { color: #16a085; text-decoration: underline;}
+.faq .answer .email:link
+{
+  padding: 0;
+  display: inline;
+  color: black; 
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+.faq .answer .email:hover
+  {
+    padding: 0;
+    display: inline;
+    color: #16a085; 
+    text-decoration: underline;
+  }

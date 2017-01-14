@@ -8,9 +8,10 @@
 
 	class Conf{
 		var $host = 'localhost';
-		var $username = 'andrewl';
-		var $password = 'password';
+		var $username = 'storally';
+		var $password = 'Raghav_16@';
 		var $db = 'storally_test';
 	}
+
 
 ?>

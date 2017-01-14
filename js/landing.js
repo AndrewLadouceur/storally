@@ -13,6 +13,12 @@ $(document).ready(function(){
 	$(".menu").delay(500).animate({
 		'opacity':1
 	});
+			$(".quote").fadeOut(function(){
+				$(this).html("&ldquo;"+"Storally is awesome and I can't wait to use it again!"+"&rsquo;").fadeIn();
+			});
+			$(".quote_author").fadeOut(function(){
+				$(this).html(" - "+"Andrew Ladouceur").fadeIn();
+			});
 
 	var quotes = ['Being an ally was a friendly interaction, with great willingness and disposal from Storally.','Storally makes storage very easy and cheap','I stored all my stuff over the summer for $60. Storally is amazing!'];
 
@@ -30,7 +36,7 @@ $(document).ready(function(){
 			});
 			console.log(quoteLoop);
 			quoteLoop++;
-	}, 3000);
+	}, 5000);
 
 
 	$(".logo").delay(700).animate({
@@ -109,11 +115,17 @@ $(document).ready(function(){
 		    enableAutocomplete: true
 		});
 	}
+
+// var btn = document.getElementById('email_continue');
+// btn.addEventListener('click', function() {
+//   document.location.href = 'signup.php';
+// });
+
 	function locError(error)
 	{
 		if (error.code == 1)
 		{
-			swal("Error!", "Please allow storally to know your location.", "error");
+			swal("Error!", "Please allow Storally to know your location.", "error");
 		}
 		console.log(error);
 	}

@@ -106,7 +106,7 @@
 				<li><a href="search.php">Search</a><br /><div class="border"></div></li>
 			<?php } ?>
 				<li><a href="signin.php">Sign in</a><br /><div class="border"></div></li>
-				<li><a href="signup.php">Sign up</a><br /><div class="border"></div></li>
+				<li><a href="new_signup.php">Sign up</a><br /><div class="border"></div></li>
 				<li><a href="signup.php">Become an ally</a><br /><div class="border"></div></li>
 				<li><a href="faq.php">FAQ</a><br /><div class="border"></div></li>
 			<?php

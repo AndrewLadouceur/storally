@@ -6,7 +6,7 @@
 	$landing = "true";
 	$include = file_get_contents('include.php');
 	require("header.php");
-?>/
+?>
 <?php
 /**
  * @Author: ananayarora
@@ -98,16 +98,21 @@
 		</div>
 		<br>
 		<br>
-		<div class="def">
+		<a href="new_signup.php">
+		<div class="def" id="storee_home" href="new_signup.php">
 			<div class="title">Storee</div>
 			<br />
 			<p>A storee is someone looking to store their belongings</p>
 		</div>
-		<div class="def" style="background:#11866F">
+		</a>
+		<a href="new_signup.php">
+		<div class="def" id="ally_home">
+
 			<div class="title">Ally</div>
 			<br />
 			<p>An ally is someone willing to host someone’s belongings</p>
 		</div>
+		</a>
 		<!-- <div class="sec">
 			<div class="title">What's in a listing?</div>
 			<br />

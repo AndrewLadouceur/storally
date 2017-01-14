@@ -45,6 +45,7 @@
   			<div class="submit_button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
   				Sign In
   			</div>
+  			 <div class="forgot"><a href="contact.php">Forgot your password?</a></div>
 		</form>
 	</div>
 </div>

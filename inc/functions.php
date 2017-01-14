@@ -372,5 +372,9 @@ class Functions
 		$this->o->get("invites");
 		return $this->o->count;
 	}
+	public function redirect_to($new_location){
+	header("Location: " . $new_location);
+	exit;
+}
 }
 ?>
